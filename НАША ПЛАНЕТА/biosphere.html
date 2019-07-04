@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Біосфера</title>
+  <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<style type="text/css">
+  #sl
+  {
+    width: 1349px;
+    height: 300px;
+     padding: 0px 0px;
+  }
+
+p , h2
+{
+  text-shadow:3px 3px 5px  grey;
+  color: white;
+  font-style: normal;
+}
+
+hr
+{
+ box-shadow: 2px 2px 5px grey;
+}
+#txt
+{
+      text-shadow:3px 3px 5px  grey;
+  color: white;
+  font-style: normal;
+}
+
+
+</style>
+</head>
+<body>
+<header><ul id="slides">
+ <li class="slide showing"><img  id="sl"  src ="image/b1.jpg"></li>
+ <li class="slide"><img  id="sl" src ="image/b2.jpg"></li>
+<li class="slide"><img  id="sl" src ="image/b3.jpg"></li>
+<li class="slide"><img  id="sl" src ="image/b4.jpg"></li>
+</ul>
+    <div id="title"><ul>
+ <li><a href="https://www.google.com/earth/">НАША ПЛАНЕТА </a></li>
+  </ul></div>
+
+<script type="text/javascript">
+  var MySlider = document.querySelectorAll('#slides .slide');
+var currentPicture = 0;
+var IntervalForChange = setInterval(nextSlide,2000);
+ 
+function nextSlide(){
+ MySlider[currentPicture].className = 'slide';
+ currentPicture = (currentPicture+1)%MySlider.length;
+ MySlider[currentPicture].className = 'slide showing';
+}
+</script>
+<nav>
+            <ul>
+                <li><a href="OUR PLANET.main.html" target="blank">Головна</a></li>
+                            
+
+                                                        
+                <li><a>Історія планети</a>
+                    <ul>
+                        <li><a href="history.html" >Зародження життя </a>
+                            
+                        </li>
+                        <li><a href="imagination.html" >Розвиток уявлень </a></li>
+
+                    </ul>
+                </li>
+                        <li><a>Заселеність</a>
+                                <ul>
+                                        <li><a href="biosphere.html">Біосфера </a>
+                                                
+                                        </li>
+                                        <li><a href="population.html">Людське населення</a></li>
+
+                                </ul>
+                        </li>
+                 <li><a href="solarsystem.html" >Положення у Сонячній системі</a></li>
+                        <li><a href="weather&climate.html" >Погода і клімат</a></li>
+                 <li><a href="#about" >Про автора</a></li> 
+            </ul>
+        </nav>
+
+</header>
+
+<div  id="content">
+  <h2 align="center">Біосфера</h2>
+  <hr>
+  <p id="txt" align="justify">
+    <i>Біосфера (від дав.-гр. βιος — життя та σφαῖρα — куля)</i> — природна підсистема географічної оболонки, що являє собою глобальну планетарну екосистему (населена живими організмами). Маса біосфери — близько 0,05% маси Землі.
+<br>
+Біосфери на інших планетах, окрім Землі, невідомі. Вважається, що бактеріальні біосфери або подібні до них можуть існувати на Марсі, Венері, Європі, Титані і ймовірно інших малих планетах.<br><br>
+
+<center id="txt"><u>Рівні організації живої матерії</u><br>
+<br>
+<i>Молекулярно-генетичний рівень.</i> Елементарна одиниця цього рівня — ген — фрагмент молекули ДНК, в якому записана інформація про первинну структуру однієї білкової молекули. Елементарне явище полягає в процесі редуплікації ДНК. Життєвий субстрат для всіх живих організмів — приблизно 20 різних амінокислот і 5 різних азотистих основ, що входять до складу нуклеїнових кислот. Енергія запасається у молекулах АТФ.
+<br>
+<i>Клітинний рівень.</i> Клітина — елементарна одиниця цього рівня. Елементарне явище виявляється в реакціях клітинного метаболізму, що складають основу потоків речовин, енергії, інформації. Завдяки діяльності клітини речовини, що надходять ззовні, перетворюються в субстрати та енергію, які використовуються в процесі біосинтезу білків та інших сполук, потрібних організму
+<br>
+<i>Організмовий рівень.</i> Рівень організму (організмовий). Елементарна одиниця цього рівня — особина в її розвитку протягом онтогенезу. Закономірні зміни організму в індивідуальному розвитку складають елементарне явище даного рівня. Ці зміни забезпечують ріст організму, диференціацію його частин і одночасно інтеграцію розвитку в єдине ціле. В процесі онтогенезу в певних умовах зовнішнього середовища відбувається втілення спадкової інформації.
+<br>
+<i>Популяційно-видовий рівень.</i> Популяція — елементарна одиниця цього рівня. Популяція — це сукупність особин одного виду, що заселяють один ареал протягом тривалого часу і відносно відокремлені від інших популяцій цього ж виду. Об'єднання особин у популяцію відбувається завдяки спільності генофонду, що використовується в процесі статевого розмноження для створення генотипів особин наступних поколінь.
+<br>
+<i>Екосистемний рівень.</i> Елементарна одиниця цього рівня — екосистема (сукупність популяцій різних видів, які заселяють територію з визначеними абіотичними показниками і зв'язані між собою та навколишнім середовищем обміном речовин, енергії та інформації). Екосистеми об'єднані на планеті в єдиний комплекс — біосферу.
+  </p></center> 
+  
+</div><div align="center"><img class="style_prevu_kit" src="image/bb1.jpg" width="400" height="300">
+    <img class="style_prevu_kit" src="image/bb2.jpg" width="400" height="300">
+      <img class="style_prevu_kit" src="image/bb3.jpg" width="400" height="300">
+        <img class="style_prevu_kit" src="image/bb4.jpg" width="400" height="300">
+           <img class="style_prevu_kit" src="image/bb5.jpg" width="400" height="300">
+        <img class="style_prevu_kit" src="image/bb6.jpg" width="400" height="300"></div>
+<hr>
+<footer>Розроблено студенткою групи КІ-17-1, Сахнюк В.В.
+<br>
+Адреса: вул.Інституська 11/3
+<br>
+e-mail: vita.sakhniuk@gmail.com
+<a name="about"></footer>
+
+</body>
+</html>

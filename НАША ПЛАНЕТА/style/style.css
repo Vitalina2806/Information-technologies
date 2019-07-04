@@ -1,0 +1,200 @@
+body{
+  font-family: 'Book Antiqua', sans-serif;
+
+  font-size:1.1em;
+background: -webkit-linear-gradient(bottom left,#85fffa,#2257bc);
+}
+#title
+ {
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 50px;
+}
+#title ul ul {
+  display: none;
+}
+#title ul li:hover > ul {
+  display: block;
+}
+#title ul {
+background-image: initial;
+   box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0 0px;
+  border-radius: 7px;  
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+#title ul:after {
+    content: ""; 
+    clear: both;
+     display: block;
+  }
+#title ul li {
+  float: left;
+}
+#title ul li:hover a {
+  color: white;
+      font-style: italic;
+             text-shadow: 3px 3px 5px black ;
+
+       
+    }
+#title ul li a {
+        color: white;
+    display: block; 
+    padding: 15px 30px;
+     text-decoration: none;
+
+  }
+#title ul ul {
+  border-radius: 0px; 
+  padding: 0;
+  position: absolute; top: 100%;
+}
+#title ul ul li {
+    float: none; 
+    position: relative;
+  }
+#title ul ul li a {
+      padding: 15px 30px;
+     
+    }
+#title ul ul li a:hover {
+       font-style: italic;
+       text-shadow: 3px 3px 5px grey ;
+
+      }
+#title ul ul ul {
+  position: absolute; 
+  left: 100%; 
+  top:0;
+}
+
+ul li img {
+  width: 1348px;
+  height: 300px;
+ padding: 0px 0px;
+  
+}
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+
+    position: relative;
+
+}
+.style_prevu_kit:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+
+}
+.slide{
+ position: absolute;
+   opacity: 0;
+   top: 0px;
+ left: 0px;
+ height: 100%;
+   width: 100%;
+ -moz-transition: opacity 1.5s;
+ transition: opacity 1.5s;
+   -webkit-transition: opacity 1.5s;
+   text-align: center;
+}
+.showing{
+ opacity: 1;
+ text-align: center;
+}
+#content
+{
+background-image:initial;
+font-size:0.9em;
+}
+footer
+{
+  width: 100%;
+  height: 60px;
+  color: white;
+  text-shadow: 3px 3px 5px grey;
+  text-align: center;
+background: -webkit-linear-gradient(top bottom,#85fffa,#2257bc);
+  font-style: italic;
+  font-family: 'Book Antiqua', sans-serif;
+  font-size: 1em;
+}
+footer:hover
+{
+  font-size: 1.1em;
+
+}
+hr
+{
+ box-shadow: 2px 2px 5px grey;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 50px;
+}
+nav ul ul {
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul {
+background-image: initial;
+   box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0 0px;
+  border-radius: 7px;  
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+nav ul:after {
+    content: ""; 
+    clear: both;
+     display: block;
+  }
+nav ul li {
+  float: left;
+}
+nav ul li:hover a {
+  color: white;
+      font-style: italic;
+             text-shadow: 3px 3px 5px black ;
+
+       
+    }
+nav ul li a {
+        color: white;
+    display: block; 
+    padding: 15px 30px;
+     text-decoration: none;
+
+  }
+nav ul ul {
+  border-radius: 0px; 
+  padding: 0;
+  position: absolute; top: 100%;
+}
+nav ul ul li {
+    float: none; 
+    position: relative;
+  }
+nav ul ul li a {
+      padding: 15px 30px;
+     
+    }
+nav ul ul li a:hover {
+       font-style: italic;
+       text-shadow: 3px 3px 5px grey ;
+
+      }
+nav ul ul ul {
+  position: absolute; 
+  left: 100%; 
+  top:0;
+}

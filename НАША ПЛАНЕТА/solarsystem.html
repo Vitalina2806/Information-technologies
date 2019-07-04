@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Положення у Сонячній системі</title>
+  <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<style type="text/css">
+  #sl
+  {
+    width: 1349px;
+    height: 300px;
+     padding: 0px 0px;
+  }
+ 
+p , h2
+{
+  text-shadow:3px 3px 5px  grey;
+  color: white;
+  font-style: normal;
+}
+hr
+{
+ box-shadow: 2px 2px 5px grey;
+}
+</style>
+</head>
+<body>
+<header><ul id="slides">
+ <li class="slide showing"><img  id="sl"  src ="image/ss1.jpg"></li>
+ <li class="slide"><img  id="sl" src ="image/ss2.jpg"></li>
+
+</ul>
+    <div id="title"><ul>
+ <li><a href="https://www.google.com/earth/">НАША ПЛАНЕТА </a></li>
+  </ul></div>
+
+<script type="text/javascript">
+  var MySlider = document.querySelectorAll('#slides .slide');
+var currentPicture = 0;
+var IntervalForChange = setInterval(nextSlide,2000);
+ 
+function nextSlide(){
+ MySlider[currentPicture].className = 'slide';
+ currentPicture = (currentPicture+1)%MySlider.length;
+ MySlider[currentPicture].className = 'slide showing';
+}
+</script>
+<nav>
+            <ul>
+                <li><a href="OUR PLANET.main.html" target="blank">Головна</a></li>
+                            
+
+                                                        
+                <li><a>Історія планети</a>
+                    <ul>
+                        <li><a href="history.html" >Зародження життя </a>
+                            
+                        </li>
+                        <li><a href="imagination.html" >Розвиток уявлень </a></li>
+
+                    </ul>
+                </li>
+                        <li><a>Заселеність</a>
+                                <ul>
+                                        <li><a href="biosphere.html">Біосфера </a>
+                                                
+                                        </li>
+                                        <li><a href="population.html">Людське населення</a></li>
+
+                                </ul>
+                        </li>
+                 <li><a href="solarsystem.html">Положення у Сонячній системі</a></li>
+                        <li><a href="weather&climate.html" >Погода і клімат</a></li>
+                 <li><a href="#about" >Про автора</a></li> 
+            </ul>
+        </nav>
+
+</header>
+
+<div  id="content">
+  <h2 align="center">Положення у Сонячній системі</h2>
+  <hr>
+  <p align="justify">
+    Земля — відкрита система в космосі, вона постійно взаємодіє з навколишнім космічним середовищем: отримує енергію від Сонця, випромінює тепло. На планету постійно потрапляють метеори, космічний пил, зрідка метеорити та комети.<img class="style_prevu_kit" src="image/ss.gif" align="right" vspace="3" hspace="8" width="350" height="300">
+ Планета постійно перебуває під впливом сонячного вітру (потік іонізованих атомів водню 90 % та гелію 10 % зі швидкістю 350–450 км/с врізається в магнітосферу) та космічного випромінювання (потік високоенергетичних ядер водню). Земля постійно гравітаційно взаємодіє з Місяцем та Сонцем (в значно меншій мірі з іншими планетами Сонячної планети), що обумовлює припливні явища.<br>
+Земля виконує один оберт навколо Сонця за кожні 365,256 днів сонячного часу, що відповідає одному року (365 діб 6 годин 9 хвилин 9 секунд). Для зручності вимірюють три роки поспіль по 365 діб кожен, а до четвертого року, високосного, додають 1 добу. Середня відстань від Сонця становить 150 млн км. З точки зору земного спостерігача Сонце рухається на схід відносно зірок зі швидкістю 1°/день. Орбітальна швидкість планети становить у середньому 29,78 км/с.<br><br>
+Повний обіг навколо осі планета здійснює за добу — 23 години 56 хвилин 4 секунди. <u>З цим рухом пов'язані декілька географічних наслідків:</u> 
+<br>
+-під дією сил тяжіння та відцентрової сили Земля стає опуклою поблизу екватора та сплющеною біля полюсів;
+-відбувається зміна дня і ночі;<br>
+-утворюється оборотна сила, або сила Коріоліса, завдяки чому всі потоки (водні чи повітряні) в північній півкулі, що рухаються з півночі на південь, відхиляються від свого напрямку праворуч.
+<br>Кут нахилу осі Землі до площини орбіти постійно становить 66° 33′. Нахил осі суттєво впливає на нерівномірний розподіл сонячної радіації по земній поверхні. Це призводить до регулярної зміни пір року.
+  </p>
+</div>
+<hr>
+<footer>Розроблено студенткою групи КІ-17-1, Сахнюк В.В.
+<br>
+Адреса: вул.Інституська 11/3
+<br>
+e-mail: vita.sakhniuk@gmail.com
+<a name="about"></footer>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homo sapiens</title>
+  <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<style type="text/css">
+  #sl
+  {
+    width: 1349px;
+    height: 300px;
+     padding: 0px 0px;
+  }
+ 
+p , h2
+{
+  text-shadow:3px 3px 5px  grey;
+  color: white;
+  font-style: normal;
+}
+hr
+{
+ box-shadow: 2px 2px 5px grey;
+}
+</style>
+</head>
+<body>
+<header><ul id="slides">
+ <li class="slide showing"><img  id="sl"  src ="image/p1.jpg"></li>
+ <li class="slide"><img  id="sl" src ="image/p2.jpg"></li>
+
+</ul>
+    <div id="title"><ul>
+ <li><a href="https://www.google.com/earth/">НАША ПЛАНЕТА </a></li>
+  </ul></div>
+
+<script type="text/javascript">
+  var MySlider = document.querySelectorAll('#slides .slide');
+var currentPicture = 0;
+var IntervalForChange = setInterval(nextSlide,2000);
+ 
+function nextSlide(){
+ MySlider[currentPicture].className = 'slide';
+ currentPicture = (currentPicture+1)%MySlider.length;
+ MySlider[currentPicture].className = 'slide showing';
+}
+</script>
+<nav>
+            <ul>
+                <li><a href="OUR PLANET.main.html" target="blank">Головна</a></li>
+                            
+
+                                                        
+                <li><a>Історія планети</a>
+                    <ul>
+                        <li><a href="history.html" >Зародження життя </a>
+                            
+                        </li>
+                        <li><a href="imagination.html" >Розвиток уявлень </a></li>
+
+                    </ul>
+                </li>
+                        <li><a>Заселеність</a>
+                                <ul>
+                                        <li><a href="biosphere.html">Біосфера </a>
+                                                
+                                        </li>
+                                        <li><a href="population.html">Людське населення</a></li>
+
+                                </ul>
+                        </li>
+                 <li><a href="solarsystem.html">Положення у Сонячній системі</a></li>
+                        <li><a href="weather&climate.html" >Погода і клімат</a></li>
+                 <li><a href="#about" >Про автора</a></li> 
+            </ul>
+        </nav>
+
+</header>
+
+<div  id="content">
+  <h2 align="center">Homo sapiens</h2>
+  <hr>
+  <p align="justify">
+   <img src="image/peop.jpg" class="style_prevu_kit" align="right" vspace="3" hspace="8" width="700" height="350"> 
+Люди́на розу́мна (лат. Homo sapiens) — вид роду Люди (Homo) із родини гомінід в ряді приматів, єдиний з наявних в теперішній час. Від сучасних людиноподібних мавп, крім анатомічних особливостей, відрізняється значним ступенем розвитку матеріальної та нематеріальної культури (включаючи виготовлення та використання знарядь праці), здатністю до мови та розвиненому абстрактному мисленню. Вид людина розумна сформувався у ході довгого і складного історико-еволюційного прогресу (антропогенезу).
+
+Чисельність населення Землі в 2016 досягла позначки в 7 430 000 000 осіб.
+Нomo sapiens — широко, хоча і нерівномірно розселений по Землі (панойкуменний) вид, що включає численні популяції, представники яких дають при змішуванні плодюче потомство і виявляють значну фенотипову мінливість, яка до певної міри пов'язана з морфофункціональною адаптацією (найвиразніші прояви останньої спостерігаються в районах з екстремальними умовами середовища — Арктика, екваторіальні райони, високогір'я тощо). Біологічна адаптація людини специфічна, бо полягає в збереженні не тільки її біологічних, але і соціальних функцій, та здійснюється при значній (і далі все більшій) ролі соціального чинника. Процес еволюції гомінідів супроводжувався поступовим звуженням дії природного відбору через виникнення і розвиток суспільства, законів та створення нового, «штучного» місця існування.
+  </p>
+</div>
+<hr>
+<footer>Розроблено студенткою групи КІ-17-1, Сахнюк В.В.
+<br>
+Адреса: вул.Інституська 11/3
+<br>
+e-mail: vita.sakhniuk@gmail.com
+<a name="about"></footer>
+
+</body>
+</html>

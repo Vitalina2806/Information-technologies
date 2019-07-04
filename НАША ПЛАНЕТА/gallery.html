@@ -1,0 +1,100 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta >
+<style type="text/css">
+
+	.wrapper{
+		width: 1000px;
+		height: 700px;
+		margin: 10px auto;
+	}
+	
+	.left_right{
+		position: absolute;
+		display: none;
+		cursor: pointer;
+		margin: -288px 0 0 10px;
+	}
+img
+{
+	box-shadow: 4px 4px 5px lightblue;
+}
+p , h2,span
+{
+	text-shadow:3px 3px 5px  grey;
+	color: white;
+}
+hr
+{
+ box-shadow: 2px 2px 5px grey;
+}
+
+</style>
+</head>
+<body>
+	<h2 align="center">Наша планета</h2>
+	<hr>
+	<p align="center"><br>Величезна, найдивовижніша і прекрасна планета Земля мандрує в нескінченному космосі гордим фрегатом, оповита білосніжними вітрилами повітряних хмар. Важко навіть собі уявити, що її могло б зовсім не бути у Всесвіті. Можливо, тоді ми жили б на іншій планеті і були зовсім не схожі на людей. Але сьогодні — ми земляни і нескінченно цьому раді.
+
+<br>Наша чудова планета не просто красива, вона унікальна своїми природними ресурсами, які дають  можливість самого життя. Чудові у своїй красі і неоціненні за користю лісові масиви — легені планети — дарують нам подих. Бездонні океани і прозорі озера — цілющу воду. Родючі землі — хліб насущний.Хто ми без постійної опіки над нами матінки Природи? Ким себе уявили, підпорядкувавши своїй думці технічний прогрес і викачуючи з надр землі її століттями накопичені запаси? Чому не можемо зупинити свою ненаситну жадібність і дурість? У що перетворимося ми, якщо втратимо довіру планети і будемо скинуті нею в безодню байдужого до нашої долі Всесвіту?
+<br>
+<br>Земля — ​​це наш єдиний в незвіданих світах дім і тому ми повинні дбайливо ставитися до неї і розумно користуватися її дарами, приймаючи їх з гідністю і вдячністю. Наша планета — благодатне джерело життя для природи та її мешканців. Її запаси не безмежні, їх вичерпання може поставити жирну крапку на самому нашому існуванні. Безневинні тваринний і рослинний світи теж загинуть за наші гріхи, наші пороки, нашу ненажерливу утробу і божевільні амбіції.
+<br>
+<br>Давайте ж загальним бажанням і зусиллям волі зупинимо самих себе. Заглянемо в очі обмілілих озер, обіймемо вершини лисіючих гір, розгладимо зморшки виснажених полів, залікуємо рани вирубаних лісів, допоможемо врятувати і відновити прекрасний тваринний і рослинний світ на вмираючій від нашого прогресу планеті.
+<br>
+<br>Давайте полюбимо свою дивовижну, прекрасну, затишну і єдину у Всесвіті планету так само, як і вона любить нас — беззавітно, віддано і по Земному проникливо.</p>
+	<div onMouseOver="btn_show()" onMouseOut="btn_noshow()" class="wrapper" align="center">
+		<script type="text/javascript">  
+							var imageArray = [
+				
+					"image/g1.jpg",		
+					"image/g2.jpg",		
+					"image/g3.jpg",		
+					"image/g4.jpg",		
+					"image/g5.jpg",		
+					"image/g6.jpg",		
+					"image/g7.jpg",		
+					"image/g8.jpg",		
+					"image/g9.jpg",		
+					"image/g10.jpg",				
+				];
+				
+				window.number = '0';
+				var imageCount = imageArray.length;
+								
+				function image(num){
+			
+					if(num == 1){
+					
+							
+						if(number < imageCount - 1){
+						
+							number++;
+
+							document.getElementById('images').src = imageArray[number];
+							document.getElementById('num_img').innerHTML= number + 1 + '/' + imageCount;
+						}
+					}					 
+					else{  		
+						if(number > 0){
+						
+							number--;
+							document.getElementById('images').src = imageArray[number];
+							document.getElementById('num_img').innerHTML= number + 1 + '/' + imageCount;
+						}
+					}
+}
+				document.write('<img id="images" src="' + imageArray[0] + '">');
+			</script>
+			
+	</div>
+
+	<center><p style="font-size: 18px;color: white;font-weight: bold;" id="num_img"></p></center>
+	<center><span class="myButton" onclick="image(0)"><< Назад |</span> <span class="myButton"  onclick="image(1)">| Вперед >></span></center>
+	
+	
+	
+</body>
+</html>
